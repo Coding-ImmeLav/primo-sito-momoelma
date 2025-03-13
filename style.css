@@ -15,3 +15,35 @@ button {
     font-weight: bold;
     font-family: monospace;
 }
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    height: 92vh; 
+
+
+}
+
+/* metto h1 e h3 in centro */
+h1, h3 {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+.info {
+    height: 70vh;
+    background-color: beige;
+    display: flex;
+}
+
+.destro,.sinistra {
+    width: 50%;
+}
+
+.immagine {
+    width: 100%;
+}
